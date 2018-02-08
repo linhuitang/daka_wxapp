@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/rule/rule"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4c86e9",
+    "navigationBarTitleText": "天天爱打卡",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#3989f8",
+    "backgroundColor": "#f9f9f9",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "打卡",
+        "iconPath": "/images/index.png",
+        "selectedIconPath": "/images/index_select.png"
+      },
+      {
+        "pagePath": "pages/rule/rule",
+        "text": "我的",
+        "iconPath": "/images/user.png",
+        "selectedIconPath": "/images/user_select.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+.dk_index_banner{
+	width: 100%;
+	height: 650rpx;
+	background: url(http://cdn.puasu.com/IMG_0060.JPG);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.dk_index_banner .dk_index_banner_title{
+	font-size: 28rpx;
+	color: #fff;
+	margin-top: 60rpx;
+}
+.dk_index_banner .dk_index_banner_num{
+	font-size: 66rpx;
+	color: #fff;
+	margin-top: 30rpx;
+	font-weight: bold;
+}
+.dk_index_banner .dk_index_banner_title text{
+	color: #ffe55e;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.dk_index_banner .sec{
+	margin-top: 30rpx;
+}
+.dk_index_banner .foot{
+	margin-top: 40rpx;
+}
+.dk_index_banner .foot image{
+	width: 20rpx;
+	height: 20rpx;
+}
+.dk_index_banner .dk_index_banner_user{
+	margin-top: 20rpx;
+}
+.dk_index_banner .dk_index_banner_user image{
+	width: 44rpx;
+	height: 44rpx;
+	border-radius: 50%;
+	margin-left: -5rpx;
+	border: 4rpx solid #fff;
+}
+.dk_index_banner .dk_index_banner_user image.dk_sheng{
+	border: none;
+	margin-left: 10rpx;
+	margin-bottom: 4rpx;
+}
+.dk_btn{
+	width: 70%;
+	height: 100rpx;
+	border-radius: 2em;
+	line-height: 100rpx;
+	color: #fff;
+	font-size: 32rpx;
+	background: linear-gradient(to right, #f85d43 , #fe8d3d);
+	position: relative;
+	top: -80rpx;
+}
+.dk_result{
+	font-size: 26rpx;
+	color: #97989c;
+	display: flex;
+	justify-content: center;
+	margin-top: 24rpx;
+}
+.dk_result .dk_result_success text{
+	color: #fa5659;
+	margin-right: 5rpx;
+}
+.dk_result .dk_result_error text{
+	color: #42c787;
+	margin-right: 5rpx;
+}
+.dk_result .dk_result_line{
+	margin-left: 16rpx;
+	margin-right: 16rpx;
+	color: #ddd;
+}
+.dk_result_user{
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 60rpx;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 60rpx;
+}
+.dk_result_user .dk_result_user_list image{
+	width: 120rpx;
+	height: 120rpx;
+	border-radius: 50%;
+	border: 1px solid #ddd;
+}
+.dk_result_user .dk_result_user_list{
+	width: 28%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.dk_result_user .dk_result_user_list .dk_result_user_logo{
+	width: 80%;
+	height: 44rpx;
+	color: #fff;
+	font-size: 30rpx;
+	transform: skew(-20deg);
+	text-align: center;
+	margin-top: -15rpx;
+	font-size: 26rpx;
+	line-height: 44rpx;
+}
+.dk_result_user .dk_result_user_list .dk_result_user_logo_1{
+	background: linear-gradient(to right, #fda431 , #fec434);
+}
+.dk_result_user .dk_result_user_list .dk_result_user_logo_2{
+	background: linear-gradient(to right, #ff7b40 , #ffa557);
+}
+.dk_result_user .dk_result_user_list .dk_result_user_logo_3{
+	background: linear-gradient(to right, #50a9fe , #50c7fe);
+}
+.dk_result_user .dk_result_user_list text{
+	display: inline-block;
+	transform: skew(20deg);
+}
+.dk_result_user .dk_result_user_list .dk_result_user_name{
+	color: #5e5f63;
+	font-size: 24rpx;
+	margin-top: 18rpx;
+}
+.dk_result_user .dk_result_user_list .dk_result_user_desc{
+	font-size: 26rpx;
+	color: #ff7837;
+	margin-top: 14rpx;
+}
+
+
+
+
